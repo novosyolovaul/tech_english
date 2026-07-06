@@ -20,19 +20,18 @@ dialogues.
 Интервью — не отдельный модуль в середине, а капстоун в конце: туда стекается лексика из
 всех модулей + добавляется специфика интервью.
 
-## Структура репозитория
+## Уроки
 
-```
-tech-english-course/
-├── README.md            ← этот файл
-├── course-plan.md        ← роадмap: 8 модулей, статус, ссылки на уроки
-├── lesson-plan.md         ← шаблон структуры урока (9 шагов)
-└── lessons/
-    └── 01-daily-dev-communication/
-        └── 01-standups-and-async.md
-```
-
-Актуальный статус модулей и список уроков — в [course-plan.md](course-plan.md).
+| # | Модуль | Уроки |
+|---|---|---|
+| 1 | Daily Dev Communication *(standups, Slack, async, small talk)* | [01 · Standups & Async](lessons/01-daily-dev-communication/01-standups-and-async.md) |
+| 2 | Projects & Workflows *(agile, planning, estimates, deadlines)* | — |
+| 3 | Coding in Practice *(code review, PR, git, testing, refactoring)* | — |
+| 4 | Debugging & Incidents *(bug reports, root cause, postmortems, on-call)* | — |
+| 5 | Documentation & Specs *(tech writing, RFC, API docs)* | — |
+| 6 | DevOps & Deployment *(releases, infra, monitoring, scaling)* | — |
+| 7 | Architecture & System Design *(trade-offs, whiteboarding, design debates)* | — |
+| 8 | Interviews & Career *(behavioral, technical, self-presentation, perf review)* | — |
 
 ## Формат урока
 
@@ -53,17 +52,6 @@ tech-english-course/
 
 Целевых слов на урок — 10–13, реальные, взятые из аутентичного источника под тему урока
 (статья не генерируется с нуля).
-
-## Модули
-
-1. Daily Dev Communication (standups, Slack, async, small talk)
-2. Projects & Workflows (agile, planning, estimates, deadlines)
-3. Coding in Practice (code review, PR, git, testing, refactoring)
-4. Debugging & Incidents (bug reports, root cause, postmortems, on-call)
-5. Documentation & Specs (tech writing, RFC, API docs)
-6. DevOps & Deployment (releases, infra, monitoring, scaling)
-7. Architecture & System Design (trade-offs, whiteboarding, design debates)
-8. Interviews & Career (behavioral, technical, self-presentation, perf review)
 
 Число уроков на модуль не фиксировано — зависит от того, сколько смысловых кластеров
 лексики реально есть в теме.
